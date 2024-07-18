@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:lightblue;
+}
+.container{
+    border-radius: 10px;
+    border: 2px solid purple;
+    padding: 20px;
+    background: linear-gradient(rgb(100, 190, 218) 30%, rgb(187, 187, 107) 70%);
+    box-shadow: 1px 2px 20px purple;
+}
+.header h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5vw;
+   background: linear-gradient(to right, rgb(176, 43, 209) 20%,rgb(202, 49, 182) 50%,rgb(133, 1, 78) 70%);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+.header input{
+    padding: 10px;
+    font-size: 1vw;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.btn{
+    font-size: 1vw;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(8, 187, 17);
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2vw;
+    gap: 20px;
+}
+.city{
+    font-size: 2vw;
+    font-weight: 900;
+}
+.temperature{
+    font-size: 3vw;
+    font-weight: 900;
+}
+.humidity{
+    font-size: 2vw;
+}
+.status{
+    font-size: 2vw;
+}
+.emoji{
+    font-size: 3vw;
+}
+.retry{
+    font-size: 1vw;
+}
