@@ -27,6 +27,7 @@
    -webkit-background-clip: text;
 }
 .header input{
+    margin: 20px;
     padding: 10px;
     font-size: 1vw;
     border-radius: 10px;
